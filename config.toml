@@ -1,0 +1,37 @@
+baseurl = "joshuabragge.github.io"
+title = "Thoughts"
+author = "Joshua Bragge"
+canonifyurls = true 
+
+[taxonomies]
+    category = "categories"  
+    tag = "tags"
+
+[[menu.main]]
+    name = "github"
+    url  = "https://github.com/joshuabragge/"
+    weight = -100
+
+[permalinks]
+    post = "/:slug/"
+    page = "/:slug/"
+
+[[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = -110
+    
+[[menu.main]]
+    name = "tags"
+    url = "/tags"
+    weight = -120
+
+[params]
+    sitename = "Thoughts"
+    disableWebFonts = true
+    description = ""
+    [params.logo]
+    url = "characture.png"
+    width = 350
+    height = 350
+    alt = "Logo"
