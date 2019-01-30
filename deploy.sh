@@ -14,6 +14,6 @@ git commit -am "New Blog Build (`date`)"
 git push
 
 echo -e "\033[0;32mChange back to hugo-blog...\033[0m"
-cd ../thoughts
+cd ../blog-git-pages-hugo-source
 
 echo -e "\033[0;32mDeploy complete.\033[0m"
